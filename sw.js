@@ -119,8 +119,8 @@ function returnFileData(fileData, filePath) {
                 ['content-length', arrayBuffer.byteLength],
 		['Content-Security-Policy', "sandbox allow-scripts; default-src 'self' data:; script-src 'self' 'unsafe-inline';"],
 		['Cross-Origin-Resource-Policy', 'same-origin'],
-		//['Cross-Origin-Embedder-Policy:','require-corp'],
-		//['Cross-Origin-Opener-Policy:','same-origin']
+		['Cross-Origin-Embedder-Policy:','require-corp'],
+		['Cross-Origin-Opener-Policy:','same-origin']
               ]
             });
     });
