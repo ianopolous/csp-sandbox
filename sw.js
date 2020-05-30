@@ -2,7 +2,7 @@
 
 const downloadMap = new Map()
 var fileDataTuple
-var webViewerPrefix = "/sandbox/app/";
+var webViewerPrefix = "/csp-sandbox/app/";
 // This should be called once per download
 // Each event has a dataChannel that the data will be piped through
 self.onmessage = event => {
